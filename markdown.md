@@ -7,4 +7,5 @@ $ git lfs install
 $ git lfs track '*.jpg'
 $ git rm --cached *.jpg
 $ git add *.jpg
+$ git lfs migrate import --include='*.jpg'
 ```
